@@ -177,3 +177,18 @@ li > a:hover{
 .horizontal-middle img{
     width: 85%;
 }
+
+.friends, .adverts{
+    text-decoration: none;
+    margin-bottom: 3rem;
+    text-align: left;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.horizontal-bottom{
+    
+}
