@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+#bgPic{
+    aspect-ratio: 16/9;
+    height: 620px;
+    width: 100%;
+    position: absolute;
+}
+
+#loginBox{
+    width: 416px;
+    height: 386px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.65) 58.33%);
+    backdrop-filter: blur(40px);
+    color: #00000000, #000000;
+}
+
+
+.logBox{
+    margin: 100px;
+    margin-left: 450px;
+}
+
+#logoTxt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: var(--log-gradient, linear-gradient(180deg, #EC0700 0%, #2646D6 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    transform: translateY(-320%);
+    margin-left: 170px;
+    transition: all, 500ms;
+}
+
+#logoTxt:hover{
+    opacity: 75%;
+}
+
+#logo{
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: url(<path-to-image>), lightgray 0px -0.523px / 100% 100.698% no-repeat, url(<path-to-image>), lightgray 50% / cover no-repeat;
+    transition: all, 500ms;
+}
+
+#logo:hover{
+    opacity: 75%;
+}
+
+#signup{
+    width: 311.614px;
+    height: 63.713px;
+    border-radius: 80px;
+    border-top: 2px solid #FFF;
+    background: linear-gradient(134deg, #520880 0%, rgba(93, 38, 244, 0.55) 45.31%, rgba(255, 16, 202, 0.31) 100%);
+    margin-top: 20px;
+    margin-left: 55px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+#login{
+    width: 311.614px;
+    height: 63.713px;
+    border-radius: 80px;
+    border-bottom: 2px solid #FFF;
+    background: linear-gradient(135deg, rgba(4, 74, 255, 0.84) 0%, rgba(207, 122, 188, 0.55) 45.31%, rgba(141, 130, 139, 0.31) 100%);
+    padding-left: 110px;
+}
+
+.button1{
+    opacity: 70%;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px; 
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px; 
+    margin-left: 55px;
+    text-align: center;
+    text-decoration: none;
+    transition: all, 200ms;
+    align-items: center;
+    text-align: right;
+}
+
+.button1:hover{
+    opacity: 100%;
+}
+
+#OCW{
+    color: #B6B6B6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px; 
+}
+
+#rec1{
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#rec1,#OCW{
+    float: left;
+}
+
+#Conwith{
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+#ConButtons{
+    margin-top: 55px;
+    margin-left: 95px;
+}
+
+#ConButtons img{
+    padding-left: 20px;
+    width: 20%;
+    height: auto;
+}
+

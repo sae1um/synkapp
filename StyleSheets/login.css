@@ -1,0 +1,137 @@
+#loginBox{
+    width: 416px;
+    height: 500px;
+}
+
+#logoTxt{
+    transform: translateY(-450%);
+}
+
+.logBox{
+    margin-bottom: 0;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+
+input{
+    border-radius: 8.854px;
+    background-color: #8700f62e;
+    backdrop-filter: blur(100px);
+    opacity: 100%;
+    width: 250px;
+    height: 40.475px;
+    flex-shrink: 0;
+    border:none;
+    border-bottom: 0.5px solid white;
+}
+
+input::placeholder{
+    color: white;
+    text-align: left;
+    text-indent: 10px;
+}
+
+
+.form{
+    width: fit-content;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.form input{
+    color: #FFF;
+    size: 40px;
+}
+
+.form a{
+    cursor:pointer;
+    color:rgba(255, 255, 255, 0.69);
+    color: rgba(255, 255, 255, 0.69);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+    transition: all, 200ms;
+}
+
+.form a:hover{
+    opacity: 75%;
+}
+
+.form label{
+    color:rgba(255, 255, 255, 0.69);
+    font-family: Inter;
+    font-size: 12.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: block;
+}
+
+#pass{
+    margin-top: 10px;
+}
+
+#details{
+    color: rgba(255, 255, 255, 0.59);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+    text-align: center;
+}
+
+#welcome{
+    text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#submitbtn{
+    width: 100px;
+    height: 30px;
+    background: white;
+    background: linear-gradient(133deg, #88019C 0%, rgba(48, 34, 186, 0.75) 46.88%, #DF312C 100%);
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border: none;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#accQ{
+    color: rgba(255, 255, 255, 0.59);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#accQ a{
+    text-decoration-line: none;
+}
+
+#password::placeholder{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
