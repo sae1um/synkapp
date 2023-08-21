@@ -20,12 +20,12 @@
 
     <body>
         <div class="wrapper">
-                    <!-- Menu Tab -->
+            <!-- Left Menu Tab -->
             <div class="left-menu">
                     <!-- replace href with links -->
                     <a id="menuLogo" href="home.html"><img src="Images/SynkLogoSide-removebg-preview.png"></a>
                     <a class="mainMenu" href="#"><i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i>  Home</a>
-                    <a class="mainMenu" href="#"> <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i> Search</a>
+                    <a class="mainMenu" href="#"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i> Search</a>
                     <a class="mainMenu" href="#"><i class="fa-solid fa-users fa-lg" style="color: #ffffff;"></i> Communities</a>
                     <a class="mainMenu" href="#"><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i> Messages</a>
                     <!-- Change to the users profile pciture-->
@@ -35,7 +35,7 @@
                         <a href="#"><i class="fa-solid fa-bookmark fa-xl" style="color: #ffffff;"></i></a>
                     </div>
             </div>
-                <!-- Center Content -->
+            <!-- Center Content -->
             <div class="mainContent">
                 <div class="nav"> <!-- links for "following" and "for you" pages-->
                     <ul class="nav_links">
@@ -47,7 +47,7 @@
                     <div class="horizontal-top">
                         <img src="Images/pfpimg.png">
                         <a href="#">@username01</a>
-                        <i class="fa-solid fa-ellipsis fa-2xl" style="color: #ffffff;"></i>
+                        <a href="#" id="more-options"><i class="fa-solid fa-ellipsis fa-2xl" style="color: #ffffff;"></i></a>
                     </div>
                     <div class="horizontal-middle">
                         <img src="Images/postimage.png">
@@ -58,19 +58,50 @@
                         <i class="fa-solid fa-paper-plane fa-2xl" style="color: #ffffff;"></i>
                     </div>
                 </div>
-                
+                <div class="contentCard">
+                    <div class="horizontal-top">
+                        <img src="Images/pfpimg.png">
+                        <a href="#">@username01</a>
+                        <a href="#" id="more-options"><i class="fa-solid fa-ellipsis fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="horizontal-middle">
+                        <img src="Images/postimage.png">
+                    </div>
+                    <div class="horizontal-bottom">
+                        <i class="fa-solid fa-comment fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-heart fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-paper-plane fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="contentCard">
+                    <div class="horizontal-top">
+                        <img src="Images/pfpimg.png">
+                        <a href="#">@username01</a>
+                        <a href="#" id="more-options"><i class="fa-solid fa-ellipsis fa-2xl" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="horizontal-middle">
+                        <img src="Images/postimage.png">
+                    </div>
+                    <div class="horizontal-bottom">
+                        <i class="fa-solid fa-comment fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-heart fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-paper-plane fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                </div>
             </div>
-                <!-- Items on far right -->
+            <!-- Far right menu -->
             <div class="right-menu">
+                <div class="search">
+                    <input id="search-box" type="search" placeholder="Search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                </div>
                 <div class="friends">
                     <a>Friends</a>
                 </div>
                 <div class="adverts">
                     <a>Adverts</a>
                 </div>
-            </div>
-            
+            </div> 
         </div>
-        
     </body>
 </html>

@@ -1,42 +1,58 @@
+----- TO-DO ------
+
 - Add a search bar
     Above the right side card
-    make it flexible with screen size
+    make it flexible with screen size 
 
----- Working Login and Signup page ----
-1. Set Up a Database:
+- Do pages for all the links in Left Menu 
+    
+- Decide where the new post button will be located 
+    Button 
+    Text Box
+    Image option
 
-Choose a database system (e.g., MySQL, PostgreSQL, MongoDB) to store user information.
-Create a database schema or table to store user profiles, including fields like username, email, password (hashed and salted), and any other relevant user data.
-2. Create a Sign-Up Form:
+- Context box when hovering on a users profile
 
-Design a sign-up form that collects user information such as username, email, and password. Ensure that you validate user inputs on the client and server-side to prevent security vulnerabilities.
-3. Server-Side Processing:
 
-Set up a server (e.g., using Node.js, Python, PHP) to handle form submissions.
-Validate and sanitize user inputs on the server-side to prevent SQL injection, cross-site scripting (XSS), and other security issues.
-Hash and salt the user's password before storing it in the database for security. Never store plain text passwords.
-4. Database Interaction:
+----- DOMAIN ------
 
-Use server-side code to connect to the database and insert the user's profile data into the appropriate table.
-5. User Authentication:
+    synkapp.co.uk 
+    use namecheap.com
+    add SSL certificate just incase github doesn't have one
 
-Implement a login page with a form that collects the user's credentials (e.g., username/email and password).
-6. Server-Side Authentication:
+---------------- BACKEND FOR LOGIN AND SIGNUP PAGE ------------------
+    1. Set Up a Database:
 
-On the server-side, retrieve the user's data from the database based on their provided credentials.
-Compare the hashed and salted password from the database with the provided password to authenticate the user.
-7. Session Management or Token-Based Authentication:
+    Choose a database system (e.g., MySQL, PostgreSQL, MongoDB) to store user information.
+    Create a database schema or table to store user profiles, including fields like username, email, password (hashed and salted), and any other relevant user data.
+    2. Create a Sign-Up Form:
 
-Implement a session management system or token-based authentication to keep the user logged in across different pages or visits.
-8. Redirect on Successful Login:
+    Design a sign-up form that collects user information such as username, email, and password. Ensure that you validate user inputs on the client and server-side to prevent security vulnerabilities.
+    3. Server-Side Processing:
 
-After successful login, redirect the user to their profile page or the main application.
-9. Error Handling:
+    Set up a server (e.g., using Node.js, Python, PHP) to handle form submissions.
+    Validate and sanitize user inputs on the server-side to prevent SQL injection, cross-site scripting (XSS), and other security issues.
+    Hash and salt the user's password before storing it in the database for security. Never store plain text passwords.
+    4. Database Interaction:
 
-Implement proper error handling for both sign-up and login processes. Display meaningful error messages to users when issues occur.
-10. Security Measures:
+    Use server-side code to connect to the database and insert the user's profile data into the appropriate table.
+    5. User Authentication:
 
-Implement security measures like rate limiting, account lockouts, and CAPTCHA to prevent brute force attacks.
-11. Testing:
+    Implement a login page with a form that collects the user's credentials (e.g., username/email and password).
+    6. Server-Side Authentication:
 
-Thoroughly test your sign-up and login processes to ensure they work correctly and securely.
+    On the server-side, retrieve the user's data from the database based on their provided credentials.
+    Compare the hashed and salted password from the database with the provided password to authenticate the user.
+    7. Session Management or Token-Based Authentication:
+
+    Implement a session management system or token-based authentication to keep the user logged in across different pages or visits.
+    8. Redirect on Successful Login:
+
+    After successful login, redirect the user to their profile page or the main application.
+    9. Error Handling:
+
+    Implement proper error handling for both sign-up and login processes. Display meaningful error messages to users when issues occur.
+    10. Security Measures:
+
+    Implement security measures like rate limiting, account lockouts, and CAPTCHA to prevent brute force attacks.
+    11. Testing:
