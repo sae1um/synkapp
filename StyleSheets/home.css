@@ -217,7 +217,7 @@ li > a:hover{
 }
 
 .search input:focus{
-    outline: whie;
+    outline: none;
 }
 
 .search button{
