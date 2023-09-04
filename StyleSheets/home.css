@@ -200,9 +200,6 @@ li > a:hover{
     height: 38px;
     flex-shrink: 0;
     border:none;
-}
-
-.search input::placeholder{
     padding-left: 10%;
     color: #ffffffaf;
     font-family: Inter;
@@ -211,8 +208,19 @@ li > a:hover{
     font-weight: 300;
 }
 
+.search input::placeholder{
+    color: #ffffffaf;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.search input:focus{
+    outline: whie;
+}
+
 .search button{
-    position: relative;
     border-radius: 0 100px 100px 0;
     background-color: #1000f663;
     backdrop-filter: blur(100px);
@@ -222,4 +230,25 @@ li > a:hover{
     flex-shrink: 0;
     border:none;
     cursor: pointer;
+    transition: background-color 200ms;
+    transform: translateY(-1px);
+}
+
+.search button:hover{
+    background-color: #1004bb63;
+}
+
+.horizontal-bottom{
+    display: flex;
+    height: 2.5rem;
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.11);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+
+}
+
+.horizontal-bottom i{
+    margin-right: 20%;
 }
