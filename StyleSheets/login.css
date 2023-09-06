@@ -1,4 +1,12 @@
-#loginBox{
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+#loginBox{ 
+    position: absolute;
     width: 416px;
     height: 500px;
 }
@@ -8,6 +16,9 @@
 }
 
 .logBox{
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-160%, -62%);
     margin-bottom: 0;
     margin-left: 450px;
     margin-top: 60px;

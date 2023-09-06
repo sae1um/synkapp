@@ -1,9 +1,18 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
 #loginBox{
+    position: absolute;
     width: 450px;
     height: 550px;
 }
 
 .logBox{
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-150%, -55%);
     margin-top: 35px;
 }
 
