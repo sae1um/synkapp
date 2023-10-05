@@ -1,26 +1,28 @@
 ----- TO-DO ------
 
-- Add a search bar
-    Above the right side card
-    make it flexible with screen size 
-
 - Do pages for all the links in Left Menu 
     
 - Decide where the new post button will be located 
     Button 
     Text Box
-    Image option
+    Multimedia option
 
-- Context box when hovering on a users profile
+- Context box when hovering on a user profile
+- Following and For You page feeds
 
 
 ----- DOMAIN ------
-
     synkapp.co.uk 
-    use namecheap.com
-    add SSL certificate just incase github doesn't have one
+        or
+    "synkapp" with related top level domain (TLD) e.g. .net .com .online etc.
+    use namecheap.com // other reputeable domain and server hosting site
+
 
 ---------------- BACKEND FOR LOGIN AND SIGNUP PAGE ------------------
+    -- Try prototype database from home.
+        With other devices
+        Login/Sign Out
+
     1. Set Up a Database:
 
     Choose a database system (e.g., MySQL, PostgreSQL, MongoDB) to store user information.
