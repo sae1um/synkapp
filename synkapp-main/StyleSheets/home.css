@@ -4,7 +4,6 @@
 
 body{   
     background: #170224;
-    font
 }
 
 .wrapper {
@@ -21,8 +20,7 @@ body{
     color: white;
     padding: 20px;
     padding-top: 1.6rem;
-    margin: 1s.2%;
-    display: flex;
+    margin: 1.2%;
     flex-direction: column; 
     border-radius: 5%;
     background: rgb(1,1,1);
@@ -35,13 +33,19 @@ body{
     text-align: left;
     display: block;
     color: #FFF;
-    font-family: "Inter", sans-serif;
+    font-family: Inter  ;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     transition: all 210ms;
 }   
+
+
+
+#menuHome{
+    margin-top: 5px;
+}
 
 .left-menu .mainMenu:hover{
     opacity: 75%;
@@ -100,7 +104,6 @@ li > a{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    text-decoration: none;
     transition: 200ms ease-in-out;
 }
 .mainContent{
@@ -257,3 +260,4 @@ li > a:hover{
 .horizontal-bottom i{
     margin: 10% 10% 10% 10%;
 }
+

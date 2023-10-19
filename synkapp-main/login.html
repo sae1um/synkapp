@@ -7,7 +7,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='StyleSheets/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='StyleSheets/login.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='StyleSheets/signup.css'>
     <link rel="icon" type="image/x-icon" href="Images/SynkLogoNoBg.png">
     <script src='JS/script.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,30 +23,19 @@
             <img  src="Images/synklogo.png" id="logo"><p id="logoTxt">SYNK</p>
         </a>
         <form>
-            <label id="welcome" >Welcome! </label>
-            <label id="details"> Fill in the details to create an account </label>
-            <div class="form" id="user">
-                <label>Username</label>
+            <label id="welcome"> Welcome Back! </label>
+            <label id="details">Fill in the details to Log In</label>
+            <div class="form" id="email">
+                <label> E-mail / Username</label>
                 <input type="text" placeholder="@yourname" required="required">
             </div>
-            <div class="form" id="email">
-                <label> E-mail </label>
-                <input type="text" placeholder="yourname@domain.com" required="required">
+            <div  class="form" id="pass">
+                <label> Password</label>
+                <input id="password" type="password" placeholder="••••••••" required="required" >
+                <a href="index.html" id="forgetpass">Forgot your password?</a>
             </div>
-            <div class="inputContainer">
-                <div class="form" id="dob">
-                    <label> D.O.B</label>
-                    <input type="date" required="required">
-                </div>
-                <div  class="form" id="pass">
-                    <label> Password</label>
-                    <input id="password" type="password" placeholder="••••••••" required="required" >
-                    <a href="index.html" id="forgetpass">Forgot your password?</a>
-                </div>
-            </div>
-            <button id="submitbtn" type="submit">Sign Up</button>
+            <button id="submitbtn" type="submit">Log In</button>
         </form>
-
         <div id="Conwith">
             <img id="rec1" src="Images/Rectangle 3.png">
             <p id="OCW">Or continue with</p>
@@ -58,7 +46,7 @@
             <a><img src="Images/Microsoft.png"></a>
             <img src="Images/Google.png">
         </div>
-        <p id="accQ">Already have an account? - <a href="login.html">Log In</a></p>
+        <p id="accQ">Don't have an account? - <a href="signup.html">Sign Up</a></p>
     </div>
 </body>
 </html>

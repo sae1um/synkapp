@@ -34,12 +34,12 @@ input{
     flex-shrink: 0;
     border:none;
     border-bottom: 0.5px solid white;
+    padding-left: 10px;
 }
 
 input::placeholder{
     color: white;
     text-align: left;
-    text-indent: 10px;
 }
 
 
@@ -58,7 +58,7 @@ input::placeholder{
     cursor:pointer;
     color:rgba(255, 255, 255, 0.69);
     color: rgba(255, 255, 255, 0.69);
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
     font-size: 10px;
     font-style: normal;
     font-weight: 300;
@@ -73,7 +73,7 @@ input::placeholder{
 
 .form label{
     color:rgba(255, 255, 255, 0.69);
-    font-family: "Inter", sans-serif ;
+    font-family: Inter;
     font-size: 12.3px;
     font-style: normal;
     font-weight: 500;
@@ -82,14 +82,12 @@ input::placeholder{
 }
 
 #pass{
+    margin-top: 10px;
 }
 
-#pass::placeholder{
-    padding-left: 1rem;
-}
-
-#details{color: rgba(255, 255, 255, 0.59);
-    font-family: "Inter", sans-serif;
+#details{
+    color: rgba(255, 255, 255, 0.59);
+    font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -102,10 +100,10 @@ input::placeholder{
     text-align: center;
     display: block;
     color: #FFF;
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
     font-size: 30px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
 }
 
@@ -129,7 +127,7 @@ input::placeholder{
 
 #accQ{
     color: rgba(255, 255, 255, 0.59);
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
