@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-image: url('/Images/Backgrounds/Background+blur.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-menu{
+    position: sticky;
+    margin-top: 10px;
+    width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 100px;
+    border: 2px solid #989898;
+    background: rgba(76, 5, 208, 0.34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: top 0.3s;
+}
+
+#menu-logo{
+    width: 8rem;
+    margin-right: 2rem;
+}
+
+.menu-item, .logo-item {
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.menu-item{
+    padding-right: 4rem;
+}
+
+.menu-item:hover{
+    opacity: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .top-menu {
+        flex-wrap: wrap; /* Allows the content to wrap to the next line on smaller screens */
+    }
+
+    .menu-item,
+    .logo-item {
+        margin-left: 1%;
+    }
+}

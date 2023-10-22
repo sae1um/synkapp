@@ -4,10 +4,16 @@
 
 body{   
     background: #170224;
-    font
 }
 
+.blurredBack{
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 .wrapper {
+    position: inherit;
     display: flex;
     top: 2;
 }

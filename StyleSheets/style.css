@@ -37,6 +37,7 @@
     font-weight: 800;
     line-height: normal;
     background: var(--log-gradient, linear-gradient(180deg, #EC0700 0%, #2646D6 100%));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
