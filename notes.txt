@@ -1,15 +1,11 @@
 ----- TO-DO ------
+- Everything
 
-- Do pages for all the links in Left Menu 
-    
-- Decide where the new post button will be located 
-    Button 
-    Text Box
-    Multimedia option
+## Units
+https://whatunit.com/ 
+##
 
-- Context box when hovering on a user profile
-- Following and For You page feeds
-
+https://www.npmjs.com/package/react-facebook
 
 ----- DOMAIN ------
     synkapp.co.uk 

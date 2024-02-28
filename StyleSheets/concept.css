@@ -1,27 +1,48 @@
+:root{
+    --schemewhite: #c0c0c0;
+    --hoverwhite: #ffffff94;
+}
+
 *{
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
+    width: 100%;
     background-image: url('/Images/Backgrounds/Background+blur.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.top-menu{
-    position: sticky;
-    margin-top: 10px;
-    width: 80%;
-    height: 70px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 100px;
-    border: 2px solid #989898;
-    background: rgba(76, 5, 208, 0.34);
+h1,h2,h3,h4,h5,h6,p{
     display: flex;
+}
+
+.page{
+    color: #ffff;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+/* Top Menu Bar styles */
+.top-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-self: center;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    margin-top: 10px;
+    width: 60vw;
+    height: 4.5rem;
+    border-radius: 55px;
+    border: 1px solid var(--schemewhite);
+    background-image:url(../Images/Backgrounds/Top\ bar\ Background\ \(1\).png);
     overflow: hidden;
     transition: top 0.3s;
 }
@@ -55,3 +76,207 @@ body {
         margin-left: 1%;
     }
 }
+/* End of Styles */
+/* Main Feed Styles*/
+.page-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feed, .communities-Tab, .friends-Tab, .Messages{
+    background-color: #1f0f3d;
+    border-radius: 1rem;
+    border: 0.5px solid white; 
+    /* var(--schemewhite); */
+}
+
+.communities-Tab, .friends-Tab, .Messages{
+    margin-left: 1rem;
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    padding-top: 1.5rem;
+    width: 53%;
+    height: 100%;
+    text-decoration: none;
+}
+
+/* Feed Styles */
+
+/* main content */
+.CreatePost{
+    display: flex;
+    padding: 3%;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.75;
+    background: var(--bw-grad, radial-gradient(911.31% 96.11% at 16.55% 30.23%, rgba(255, 255, 255, 0.2) 0%, rgba(137, 122, 149, 0.05) 73.96%, rgba(255, 255, 255, 0.05) 100%));
+    text-decoration: none;
+}
+
+.top-horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.extraButtons > a{
+    color: #ffff;
+}
+
+.profile{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile > img{
+    height: 45px;
+    margin: 5%;
+}
+
+#userPostImg{
+    max-height: 100%;
+}
+
+.user-profile > a{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.user-profile{
+    display: flex;
+    width: auto;
+}
+#user-date{
+    margin-left: 1rem;
+}
+#date {
+    color: var(--schemewhite);
+    font-size: 0.8rem;
+}
+#username > p{
+    text-decoration: none;
+    color:white;
+    transition: all 300ms;
+}
+
+#username > p:hover{
+    color: var(--hoverwhite);
+}
+#post-media > img{
+    width: 100%;
+}
+/* End of Feed Styles*/
+/* Side Items (Community & Friends Tabs) */
+.side-items{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #ffff;
+    position: relative;
+}
+
+.sideBars{
+    display: flex;
+    position: sticky;
+    height: 80%;
+}
+
+.communities-Tab{
+    width: 60%;
+}
+
+.communities-header,.friends-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.communities-header > i{
+    margin-right: 0.5rem;
+}
+
+#community-desc{
+    color: var(--schemewhite);
+}
+
+.friends-Tab{
+    width: 40%;
+}
+
+.community-info{
+    width: 100%;
+}
+
+.community-info > a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    transition: all 300ms;
+}
+.community-info > a:hover{
+    color: var(--hoverwhite);
+}
+
+.friend-info{
+    width: 100%;
+}
+.friend-info > a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#friends-pfp{
+    height: 45px;
+    margin: 3%;
+}
+
+#user-handle{
+    width: 100%;
+    font-size: 0.8em;
+    color: white;
+    transition: all 300ms;
+}
+#user-handle:hover{
+    color: var(--hoverwhite);
+}
+/* Messages */
+
+.Messages{
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+}
+
+hr{
+    border: 1px solid var(--schemewhite);
+}
+
+.postButtons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    align-content: center;
+}
+
+.postButtons > a{
+    margin-left: 5%;
+}
+
+#gifIcon{
+    width: 20px;
+}
+
+/*  */
+
